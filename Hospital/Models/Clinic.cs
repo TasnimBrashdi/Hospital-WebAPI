@@ -10,9 +10,12 @@ namespace Hospital.Models
         public int CID { get; set; }
 
         [Required]
+
         public string Specialization { get; set; }
 
+        [Required]
 
+        public int NoOfSlots { get; set; }
 
     }
 }
