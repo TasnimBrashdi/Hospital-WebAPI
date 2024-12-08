@@ -40,6 +40,19 @@ namespace Hospital.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("GetBookingByPatientName/{name}")]
+        public IActionResult GetByName(string name)
+        {
+            try
+            {
+                var booking = _bookingService.GetByName(name);
+                return Ok(booking);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
         [HttpPost]
         public IActionResult AddBooking(int cid,int pid,DateTime dateTime)
         {

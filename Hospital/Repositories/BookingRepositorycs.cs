@@ -1,4 +1,6 @@
 ﻿using Hospital.Models;
+using Microsoft.EntityFrameworkCore;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace Hospital.Repositories
 {
@@ -25,7 +27,14 @@ namespace Hospital.Repositories
             _context.Bookings.Add(booking);
             _context.SaveChanges();
         }
-
+        public List<Booking> GetByName(string name)
+        {
+            return _context.Bookings
+                .Include(b => b.Patient)
+                .Include(b => b.Clinic)
+                .Where(b => b.Patient.Name.Contains(name))
+                .ToList();
+        }
         public Booking GetByPatientAndClinic(int patientId, int clinicId, DateTime date)
         {
             return _context.Bookings.FirstOrDefault(b => b.PatientID == patientId && b.ClinicId == clinicId && b.Date.Date == date.Date);

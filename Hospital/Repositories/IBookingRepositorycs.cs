@@ -9,5 +9,6 @@ namespace Hospital.Repositories
         Booking GetByClinic(int cid);
         Booking GetByPatient(int pid);
         Booking GetByPatientAndClinic(int patientId, int clinicId, DateTime date);
+        List<Booking> GetByName(string name);
     }
 }

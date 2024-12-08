@@ -31,7 +31,16 @@ namespace Hospital.Services
             }
             return booking;
         }
+        public List<Booking> GetByName(string name) {
 
+            var booking = _bookingRepository.GetByName(name);
+            if (booking == null)
+            {
+                throw new KeyNotFoundException("booking not found.");
+            }
+            return booking;
+        }
+     
         public void AddBooking(Booking bookings)
         {
             if (bookings.Date < DateTime.Now)
@@ -42,7 +51,7 @@ namespace Hospital.Services
                bookings.PatientID,
                bookings.ClinicId,
                bookings.Date
-
+         
 
                 );
 
@@ -59,12 +68,13 @@ namespace Hospital.Services
             {
                 throw new InvalidOperationException("The clinic has the maximum number of appointments for the selected date.");
             }
+
             var booking = new Booking
             {
                 PatientID = bookings.PatientID,
                 ClinicId = bookings.ClinicId,
                 Date = bookings.Date,
-                Slots_Number = bookings.Slots_Number + 1
+                Slots_Number = dailyBookingCount + 1
             };
 
 
