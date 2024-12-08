@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Hospital.Models
 {
@@ -10,16 +11,17 @@ namespace Hospital.Models
     public class Booking
     {
         [ForeignKey("PId")]
-        public int? PatientID { get; set; }
-
-        public virtual Patient PId { get; set; }
+        public int PatientID { get; set; }
+        [JsonIgnore]
+        public virtual Patient Patient { get; set; }
         [ForeignKey("CId")]
-        public int? ClinicId { get; set; }
-        public virtual Clinic CId { get; set; }
+        public int ClinicId { get; set; }
+        [JsonIgnore]
+        public virtual Clinic Clinic { get; set; }
         [Required]
         public DateTime Date { get; set; }
         [Required]
-        public int Slots_Number { get; set; }
+        public int Slots_Number { get; set; } = 0;
 
     }
 }

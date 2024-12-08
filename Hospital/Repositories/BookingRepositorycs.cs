@@ -25,5 +25,16 @@ namespace Hospital.Repositories
             _context.Bookings.Add(booking);
             _context.SaveChanges();
         }
+
+        public Booking GetByPatientAndClinic(int patientId, int clinicId, DateTime date)
+        {
+            return _context.Bookings.FirstOrDefault(b => b.PatientID == patientId && b.ClinicId == clinicId && b.Date.Date == date.Date);
+        }
+
+        public int BookingCount(int clinicId, DateTime date)
+        {
+            return _context.Bookings.Count(b => b.ClinicId == clinicId && b.Date.Date == date.Date);
+        }
+
     }
 }
