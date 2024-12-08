@@ -41,7 +41,7 @@ namespace Hospital.Controllers
             }
         }
         [HttpPost]
-        public IActionResult AddBooking(int cid,int pid,DateTime dateTime,int no)
+        public IActionResult AddBooking(int cid,int pid,DateTime dateTime)
         {
             try
             {
@@ -50,7 +50,7 @@ namespace Hospital.Controllers
                     ClinicId = cid,
                     PatientID = pid,
                     Date= dateTime,
-                    Slots_Number = no
+           
                    
                 });
                 return Created();

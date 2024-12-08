@@ -21,14 +21,14 @@ namespace Hospital.Services
             }
             return patient;
         }
-        public void AddPatient(Patient patient)
+        public string AddPatient(Patient patient)
         {
             if (patient.Name == null)
             {
                 throw new ArgumentException("Patient name is required.");
             }
 
-            _patientRepository.Add(patient);
+            return _patientRepository.Add(patient);
         }
     }
 }

@@ -21,14 +21,14 @@ namespace Hospital.Services
             }
             return clinics;
         }
-        public void AddCALLClinic(Clinic clinic)
+        public string AddClinic(Clinic clinic)
         {
             if (clinic.Specialization == null)
             {
                 throw new ArgumentException("Specialization  is required.");
             }
 
-            _clinicRepository.Add(clinic);
+            return _clinicRepository.Add(clinic);
         }
     }
 }

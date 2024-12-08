@@ -4,7 +4,7 @@ namespace Hospital.Services
 {
     public interface IPatientService
     {
-        void AddPatient(Patient patient);
+        string AddPatient(Patient patient);
         List<Patient> GetAllPatient();
     }
 }
