@@ -27,13 +27,14 @@ namespace Hospital.Controllers
             }
         }
         [HttpPost]
-        public IActionResult Add(string Specialization)
+        public IActionResult Add(string Specialization,int No)
         {
             try
             {
                 string NewClinic = _clinicService.AddClinic(new Clinic
                 {
                  Specialization = Specialization,
+                 NoOfSlots = No
     
                 });
                 return Created(string.Empty, NewClinic);

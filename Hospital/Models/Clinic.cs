@@ -15,7 +15,7 @@ namespace Hospital.Models
 
         [Required]
 
-        public int NoOfSlots { get; set; } = 0;
+        public int NoOfSlots { get; set; }
 
     }
 }

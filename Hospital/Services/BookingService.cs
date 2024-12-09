@@ -7,10 +7,11 @@ namespace Hospital.Services
     {
 
         private readonly IBookingRepositorycs _bookingRepository;
-
-        public BookingService(IBookingRepositorycs bookingRepository)
+        private readonly IClinicRepository _clinicRepository;
+        public BookingService(IBookingRepositorycs bookingRepository, IClinicRepository clinicRepository)
         {
             _bookingRepository = bookingRepository;
+            _clinicRepository = clinicRepository;
 
         }
         public Booking GetBookingByIdPatient(int id)
@@ -41,7 +42,7 @@ namespace Hospital.Services
             return booking;
         }
      
-        public void AddBooking(Booking bookings)
+        public void AddBooking(Booking bookings,Clinic clinic)
         {
             if (bookings.Date < DateTime.Now)
             {
@@ -60,11 +61,17 @@ namespace Hospital.Services
                 throw new ArgumentException("The patient already has a booking in this clinic on the selected date.");
             }
 
-            var dailyBookingCount = _bookingRepository.BookingCount(
-                 bookings.ClinicId,
-                 bookings.Date);
+            var SlotsCount = _clinicRepository.SlotsCount(
+                clinic.NoOfSlots 
+                );
+            var BookingDaily = _bookingRepository.BookingCount(
+        
+                bookings.ClinicId,
+                bookings.Date
+                
+                );
 
-            if (dailyBookingCount >= 20)
+            if (BookingDaily >= BookingDaily)
             {
                 throw new InvalidOperationException("The clinic has the maximum number of appointments for the selected date.");
             }
@@ -74,7 +81,7 @@ namespace Hospital.Services
                 PatientID = bookings.PatientID,
                 ClinicId = bookings.ClinicId,
                 Date = bookings.Date,
-                Slots_Number = dailyBookingCount + 1
+                Slots_Number = BookingDaily + 1
             };
 
 

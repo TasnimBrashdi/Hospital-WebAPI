@@ -54,18 +54,23 @@ namespace Hospital.Controllers
             }
         }
         [HttpPost]
-        public IActionResult AddBooking(int cid,int pid,DateTime dateTime)
+        public IActionResult AddBooking(int cid, int pid, DateTime dateTime)
         {
             try
             {
-                _bookingService.AddBooking(new Booking
+                var booking = new Booking
                 {
                     ClinicId = cid,
                     PatientID = pid,
-                    Date= dateTime,
-           
-                   
-                });
+                    Date = dateTime
+                };
+
+                var clinic = new Clinic
+                {
+                    CID = cid
+                };
+
+                _bookingService.AddBooking(booking, clinic);
                 return Created();
             }
             catch (Exception ex)

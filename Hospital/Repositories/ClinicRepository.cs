@@ -23,5 +23,9 @@ namespace Hospital.Repositories
 
             return clinic.Specialization;
         }
+        public int SlotsCount(int slots)
+        {
+            return _context.Clinics.Count(b => b.NoOfSlots== slots) ;
+        }
     }
 }

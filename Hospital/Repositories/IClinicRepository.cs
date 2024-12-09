@@ -6,5 +6,6 @@ namespace Hospital.Repositories
     {
         string Add(Clinic clinic);
         IEnumerable<Clinic> GetAll();
+        int SlotsCount(int slots);
     }
 }
