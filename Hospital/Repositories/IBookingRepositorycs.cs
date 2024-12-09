@@ -6,8 +6,9 @@ namespace Hospital.Repositories
     {
         void Add(Booking booking);
         int BookingCount(int clinicId, DateTime date);
-        Booking GetByClinic(int cid);
-        Booking GetByPatient(int pid);
+    
+        IEnumerable<Booking> GetByClinic(int cid);
+        IEnumerable<Booking> GetByPatient(int pid);
         Booking GetByPatientAndClinic(int patientId, int clinicId, DateTime date);
         List<Booking> GetByName(string name);
     }

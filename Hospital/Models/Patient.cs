@@ -11,7 +11,7 @@ namespace Hospital.Models
             Female
         }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int PID { get; set; }
 
         [Required]

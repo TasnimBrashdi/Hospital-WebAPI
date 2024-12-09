@@ -12,15 +12,20 @@ namespace Hospital.Repositories
         {
             _context = context;
         }
-        public Booking GetByClinic(int cid)
+        //public Booking GetByClinic(int cid)
+        //{
+        //    return _context.Bookings.FirstOrDefault(c => c.ClinicId == cid);
+        //}
+        public IEnumerable<Booking> GetByClinic(int cid)
         {
-            return _context.Bookings.FirstOrDefault(c => c.ClinicId == cid);
+            return _context.Bookings.Where(p => p.ClinicId == cid).ToList();
         }
 
-        public Booking GetByPatient(int pid)
+        public IEnumerable<Booking> GetByPatient(int pid)
         {
-            return _context.Bookings.FirstOrDefault(p => p.PatientID == pid);
+            return _context.Bookings.Where(p => p.PatientID == pid).ToList();
         }
+
 
         public void Add(Booking booking)
         {

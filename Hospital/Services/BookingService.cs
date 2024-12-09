@@ -14,18 +14,18 @@ namespace Hospital.Services
             _clinicRepository = clinicRepository;
 
         } 
-        public Booking GetBookingByIdPatient(int id)
+        public List<Booking> GetBookingByIdPatient(int id)
         {
-            var booking = _bookingRepository.GetByPatient(id);
+            var booking = _bookingRepository.GetByPatient(id).ToList(); ;
             if (booking == null)
             {
                 throw new KeyNotFoundException("booking not found.");
             }
             return booking;
         }
-        public Booking GetBookingByIdClinic(int id)
+        public List<Booking>  GetBookingByIdClinic(int id)
         {
-            var booking = _bookingRepository.GetByClinic(id);
+            var booking = _bookingRepository.GetByClinic(id).ToList();
             if (booking == null)
             {
                 throw new KeyNotFoundException("booking not found.");
