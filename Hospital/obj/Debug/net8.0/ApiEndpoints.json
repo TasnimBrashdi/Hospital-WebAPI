@@ -1,0 +1,143 @@
+[
+  {
+    "ContainingType": "Hospital.Controllers.BookingCotroller",
+    "Method": "AddBooking",
+    "RelativePath": "api/BookingCotroller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.BookingCotroller",
+    "Method": "GetBookingByIdClinic",
+    "RelativePath": "api/BookingCotroller/GetBookingByIdClinic/{cid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.BookingCotroller",
+    "Method": "GetBookingByIdPatient",
+    "RelativePath": "api/BookingCotroller/GetBookingByPatient/{pid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.BookingCotroller",
+    "Method": "GetByName",
+    "RelativePath": "api/BookingCotroller/GetBookingByPatientName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.ClinicCotroller",
+    "Method": "Add",
+    "RelativePath": "api/ClinicCotroller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Specialization",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "No",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.ClinicCotroller",
+    "Method": "GetAllClinic",
+    "RelativePath": "api/ClinicCotroller/GetAllClinic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.PatientCotroller",
+    "Method": "Add",
+    "RelativePath": "api/PatientCotroller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "age",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gen",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hospital.Controllers.PatientCotroller",
+    "Method": "GetAllPatient",
+    "RelativePath": "api/PatientCotroller/GetAllPatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

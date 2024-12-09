@@ -1,7 +1,108 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\repositories\\bookingrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\repositories\\bookingrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\repositories\\ibookingrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\repositories\\ibookingrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241209094427_editidntityKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Migrations\\20241209094427_editidntityKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\repositories\\clinicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\repositories\\clinicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\repositories\\iclinicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\repositories\\iclinicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\controllers\\bookingcotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\controllers\\bookingcotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\controllers\\cliniccotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\controllers\\cliniccotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241209055131_editNoOfslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Migrations\\20241209055131_editNoOfslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\services\\clinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\services\\clinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\services\\iclinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\services\\iclinicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\hospital.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\hospital.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\controllers\\patientcotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\controllers\\patientcotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\migrations\\20241208112050_addinitalnoslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\migrations\\20241208112050_addinitalnoslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|c:\\users\\codeline user\\source\\repos\\hospital\\hospital\\migrations\\20241208090611_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495C7679-5912-4960-90D7-C564D670C297}|Hospital\\Hospital.csproj|solutionrelative:hospital\\migrations\\20241208090611_intialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +110,328 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Hospital\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\BookingService.cs",
+              "RelativeToolTip": "Hospital\\Services\\BookingService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:12:26.493Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClinicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\ClinicRepository.cs",
+              "RelativeDocumentMoniker": "Hospital\\Repositories\\ClinicRepository.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\ClinicRepository.cs",
+              "RelativeToolTip": "Hospital\\Repositories\\ClinicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:24:54.359Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241209094427_editidntityKey.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241209094427_editidntityKey.cs",
+              "RelativeDocumentMoniker": "Hospital\\Migrations\\20241209094427_editidntityKey.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241209094427_editidntityKey.cs",
+              "RelativeToolTip": "Hospital\\Migrations\\20241209094427_editidntityKey.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:44:28.084Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241209055131_editNoOfslots.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241209055131_editNoOfslots.cs",
+              "RelativeDocumentMoniker": "Hospital\\Migrations\\20241209055131_editNoOfslots.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241209055131_editNoOfslots.cs",
+              "RelativeToolTip": "Hospital\\Migrations\\20241209055131_editNoOfslots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T05:51:31.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241208112050_addinitalNoSlots.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241208112050_addinitalNoSlots.cs",
+              "RelativeDocumentMoniker": "Hospital\\Migrations\\20241208112050_addinitalNoSlots.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241208112050_addinitalNoSlots.cs",
+              "RelativeToolTip": "Hospital\\Migrations\\20241208112050_addinitalNoSlots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:20:50.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingRepositorycs.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\BookingRepositorycs.cs",
+              "RelativeDocumentMoniker": "Hospital\\Repositories\\BookingRepositorycs.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\BookingRepositorycs.cs",
+              "RelativeToolTip": "Hospital\\Repositories\\BookingRepositorycs.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:51:48.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241208090611_IntialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241208090611_IntialMigration.cs",
+              "RelativeDocumentMoniker": "Hospital\\Migrations\\20241208090611_IntialMigration.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Migrations\\20241208090611_IntialMigration.cs",
+              "RelativeToolTip": "Hospital\\Migrations\\20241208090611_IntialMigration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:06:12.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookingRepositorycs.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\IBookingRepositorycs.cs",
+              "RelativeDocumentMoniker": "Hospital\\Repositories\\IBookingRepositorycs.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\IBookingRepositorycs.cs",
+              "RelativeToolTip": "Hospital\\Repositories\\IBookingRepositorycs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:03:54.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IClinicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\IClinicRepository.cs",
+              "RelativeDocumentMoniker": "Hospital\\Repositories\\IClinicRepository.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\IClinicRepository.cs",
+              "RelativeToolTip": "Hospital\\Repositories\\IClinicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:03:23.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Hospital\\Repositories\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "Hospital\\Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:02:58.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Program.cs",
+              "RelativeDocumentMoniker": "Hospital\\Program.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Program.cs",
+              "RelativeToolTip": "Hospital\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:01:10.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Hospital\\Services\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\IBookingService.cs",
+              "RelativeToolTip": "Hospital\\Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:49:36.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClinicService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\ClinicService.cs",
+              "RelativeDocumentMoniker": "Hospital\\Services\\ClinicService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\ClinicService.cs",
+              "RelativeToolTip": "Hospital\\Services\\ClinicService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:44:07.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IClinicService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\IClinicService.cs",
+              "RelativeDocumentMoniker": "Hospital\\Services\\IClinicService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\IClinicService.cs",
+              "RelativeToolTip": "Hospital\\Services\\IClinicService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:42:36.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Hospital\\Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\PatientService.cs",
+              "RelativeToolTip": "Hospital\\Services\\PatientService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:31:23.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\IPatientService.cs",
+              "RelativeDocumentMoniker": "Hospital\\Services\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Services\\IPatientService.cs",
+              "RelativeToolTip": "Hospital\\Services\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:29:16.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingCotroller.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Controllers\\BookingCotroller.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\BookingCotroller.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Controllers\\BookingCotroller.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\BookingCotroller.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAEwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:26:15.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClinicCotroller.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Controllers\\ClinicCotroller.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\ClinicCotroller.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Controllers\\ClinicCotroller.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\ClinicCotroller.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:25:25.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PatientCotroller.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Controllers\\PatientCotroller.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\PatientCotroller.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Controllers\\PatientCotroller.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\PatientCotroller.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:24:59.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\appsettings.json",
+              "RelativeDocumentMoniker": "Hospital\\appsettings.json",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\appsettings.json",
+              "RelativeToolTip": "Hospital\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T08:21:01.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Hospital\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Hospital\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:20:42.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Models\\Booking.cs",
+              "RelativeToolTip": "Hospital\\Models\\Booking.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T05:20:59.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Models\\Clinic.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\Clinic.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Models\\Clinic.cs",
+              "RelativeToolTip": "Hospital\\Models\\Clinic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T05:20:33.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Models\\Patient.cs",
+              "RelativeToolTip": "Hospital\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T05:20:09.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Hospital.csproj",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Hospital.csproj",
+              "RelativeDocumentMoniker": "Hospital\\Hospital.csproj",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\Hospital\\Hospital\\Hospital.csproj",
+              "RelativeToolTip": "Hospital\\Hospital.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T05:17:39.867Z"
             }
           ]
         }
